@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BindKey — Save and name your keyboard shortcuts. Fire them from the menu bar in any app, without switching windows or memorizing complex combos." />
+  <title>BindKey — Keyboard Shortcuts, Simplified</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="assets/icon.png" alt="BindKey icon" class="nav-icon" />
+        BindKey
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#download" class="btn btn-sm">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Now available for macOS</div>
+      <h1 class="hero-headline">
+        Your shortcuts,<br />
+        <span class="accent">one click away.</span>
+      </h1>
+      <p class="hero-sub">
+        BindKey lives in your menu bar. Save any keyboard shortcut, give it a name, and fire it instantly — in whatever app you're using — without switching windows or memorizing complex combos.
+      </p>
+      <div class="hero-cta">
+        <a href="#download" class="btn btn-primary">Download for macOS</a>
+        <span class="hero-meta">Free · macOS 13+</span>
+      </div>
+      <div class="hero-visual">
+        <div class="menubar-mockup">
+          <div class="menubar-bar">
+            <span class="menubar-app-name">Finder</span>
+            <div class="menubar-right">
+              <span class="menubar-icon-label">⌨ BindKey</span>
+            </div>
+          </div>
+          <div class="menubar-dropdown">
+            <div class="dropdown-header">My Shortcuts</div>
+            <div class="shortcut-item">
+              <span class="shortcut-name">New Tab</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>T</kbd></span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-name">Screenshot Region</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd></span>
+            </div>
+            <div class="shortcut-item shortcut-item--active">
+              <span class="shortcut-name">Lock Screen</span>
+              <span class="shortcut-keys"><kbd>⌃</kbd><kbd>⌘</kbd><kbd>Q</kbd></span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-name">Undo Last Action</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>Z</kbd></span>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div class="shortcut-item shortcut-item--muted">
+              <span class="shortcut-name">+ Add Shortcut</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-inner">
+      <h2 class="section-title">As simple as it sounds.</h2>
+      <p class="section-sub">Three steps, zero friction.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Add a shortcut</h3>
+          <p>Type any key combo and give it a name you'll actually remember. No cryptic identifiers.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Stay in your app</h3>
+          <p>Keep working. BindKey sits quietly in your menu bar, ready when you need it.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Click to fire</h3>
+          <p>Click any saved shortcut from the menu. It fires instantly in the app you were using — no focus stealing, no switching.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <h2 class="section-title">Built for how you actually work.</h2>
+      <p class="section-sub">Powerful where it matters, invisible where it doesn't.</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⌨️</div>
+          <h3>Save unlimited shortcuts</h3>
+          <p>Store as many key combos as you need. Organize them however you like with custom names.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖱️</div>
+          <h3>One-click from menu bar</h3>
+          <p>Access every saved shortcut from a single, always-visible menu bar icon.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Fires in the right app</h3>
+          <p>BindKey sends the shortcut to the app that was active before you opened the menu — not to itself.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Private by design</h3>
+          <p>Everything lives locally on your Mac. No accounts, no cloud sync, no data collection.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant and lightweight</h3>
+          <p>Zero launch time, minimal CPU and memory footprint. You won't notice it's there until you need it.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍎</div>
+          <h3>Feels native to macOS</h3>
+          <p>Designed to look and feel like it belongs on your Mac. System fonts, native controls, dark mode support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="download" id="download">
+    <div class="section-inner download-inner">
+      <img src="assets/icon.png" alt="BindKey app icon" class="download-icon" />
+      <h2>Start working smarter.</h2>
+      <p>Free download. No account required. Works on macOS Ventura and later.</p>
+      <a href="#" class="btn btn-primary btn-large">Download BindKey</a>
+      <p class="download-meta">macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon & Intel</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">⌨ BindKey</span>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Support</a>
+      </div>
+      <span class="footer-copy">© 2026. Made with care for Mac users.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
