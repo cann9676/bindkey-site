@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>                                             
+  <rss version="2.0"                                                                 
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">               
+    <channel>                                                         
+      <title>BindKey</title>                                                         
+      <item>                                                
+        <title>Version 1.0.0</title>                                                 
+        <sparkle:version>1</sparkle:version>
+        <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>               
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <enclosure                                                                   
+          url="PASTE_DMG_DOWNLOAD_URL_HERE"
+          sparkle:edSignature="PASTE_SIGNATURE_HERE"                                 
+          length="PASTE_FILE_SIZE_IN_BYTES_HERE"                                     
+          type="application/octet-stream"/>                                          
+      </item>                                                                        
+    </channel>                                                                       
+  </rss>       
