@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BindKey — Stop forgetting keyboard shortcuts. Save any key combo, name it, and fire it from your menu bar in one click — without leaving your current app." />
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
   <title>BindKey — Keyboard Shortcuts from Your Menu Bar</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="assets/icon.png" />
@@ -21,7 +23,7 @@
         <a href="#why">Why BindKey</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
-        <a href="#download" class="btn btn-sm">Get BindKey</a>
+        <a href="#download" class="btn btn-sm">Download</a>
       </nav>
     </div>
   </header>
@@ -29,17 +31,19 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-badge">Native macOS app &nbsp;·&nbsp; Menu bar utility</div>
+      <div class="hero-badge">macOS menu bar app</div>
       <h1 class="hero-headline">
         Stop forgetting<br />
         <span class="accent">your shortcuts.</span>
       </h1>
       <p class="hero-sub">
-        BindKey saves your keyboard shortcuts by name and lets you fire them from the menu bar — instantly, in whatever app you're already using.
+        Save any keyboard shortcut, give it a name you'll recognize, and fire it from the menu bar — instantly, in whatever app you're using.
       </p>
       <div class="hero-cta">
-        <a href="#download" class="btn btn-primary">Get BindKey for Mac</a>
+        <a href="PURCHASE_LINK_HERE" class="btn btn-primary">Download for macOS</a>
         <div class="hero-trust">
+          <span>One-time purchase</span>
+          <span class="trust-dot">·</span>
           <span>No subscription</span>
           <span class="trust-dot">·</span>
           <span>No switching windows</span>
@@ -58,20 +62,24 @@
           <div class="menubar-dropdown">
             <div class="dropdown-header">My Shortcuts</div>
             <div class="shortcut-item">
-              <span class="shortcut-name">New Tab</span>
-              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>T</kbd></span>
-            </div>
-            <div class="shortcut-item">
-              <span class="shortcut-name">Screenshot Region</span>
-              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd></span>
+              <span class="shortcut-name">Paste without Formatting</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>V</kbd></span>
             </div>
             <div class="shortcut-item shortcut-item--active">
-              <span class="shortcut-name">Lock Screen</span>
-              <span class="shortcut-keys"><kbd>⌃</kbd><kbd>⌘</kbd><kbd>Q</kbd></span>
+              <span class="shortcut-name">Screenshot Selection</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd></span>
             </div>
             <div class="shortcut-item">
-              <span class="shortcut-name">Force Quit</span>
-              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⌥</kbd><kbd>⎋</kbd></span>
+              <span class="shortcut-name">Emoji Picker</span>
+              <span class="shortcut-keys"><kbd>⌃</kbd><kbd>⌘</kbd><kbd>Space</kbd></span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-name">Copy File Path</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⌥</kbd><kbd>C</kbd></span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-name">Lock Screen</span>
+              <span class="shortcut-keys"><kbd>⌃</kbd><kbd>⌘</kbd><kbd>Q</kbd></span>
             </div>
             <div class="dropdown-divider"></div>
             <div class="shortcut-item shortcut-item--muted">
@@ -103,10 +111,10 @@
         <div class="why-divider">→</div>
         <div class="why-card why-card--solution">
           <div class="why-label">With BindKey</div>
-          <ul class="why-list">
-            <li>Click the menu bar icon</li>
-            <li>Pick the shortcut by name</li>
-            <li>It fires in your active app</li>
+          <ul class="why-list why-list--solution">
+            <li>Click the BindKey menu bar icon</li>
+            <li>Pick your shortcut by name</li>
+            <li>It fires in the app you were using</li>
             <li>Back to work in under a second</li>
           </ul>
         </div>
@@ -117,8 +125,8 @@
   <!-- FEATURES -->
   <section class="features" id="features">
     <div class="section-inner">
-      <h2 class="section-title">Everything you need.<br />Nothing you don't.</h2>
-      <p class="section-sub">Built to stay out of your way.</p>
+      <h2 class="section-title">Builds into your workflow.<br />Gets out of your way.</h2>
+      <p class="section-sub">No configuration. No maintenance. Just shortcuts that work.</p>
       <div class="feature-grid">
         <div class="feature-card">
           <div class="feature-icon">⌨️</div>
@@ -163,7 +171,7 @@
         <div class="step">
           <div class="step-number">1</div>
           <h3>Save a shortcut</h3>
-          <p>Record any key combination and give it a plain-English name. <kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd> becomes "Screenshot Region."</p>
+          <p>Record any key combination and give it a plain-English name. <kbd>⌘</kbd><kbd>⇧</kbd><kbd>V</kbd> becomes "Paste without Formatting."</p>
         </div>
         <div class="step-connector"></div>
         <div class="step">
@@ -185,17 +193,19 @@
   <section class="download" id="download">
     <div class="section-inner download-inner">
       <img src="assets/icon.png" alt="BindKey app icon" class="download-icon" />
-      <h2>Never lose your flow to a forgotten shortcut.</h2>
-      <p>One-time purchase. No subscription, no account, no nonsense.</p>
-      <a href="#" class="btn btn-primary btn-large">Get BindKey — $X</a>
+      <h2>Stop losing your flow<br />to a forgotten shortcut.</h2>
+      <p>A one-time purchase. No subscription, no account required.</p>
+      <a href="PURCHASE_LINK_HERE" class="btn btn-primary btn-large">Get BindKey for Mac</a>
       <div class="download-trust">
         <span>Native macOS app</span>
+        <span class="trust-dot">·</span>
+        <span>One-time purchase</span>
         <span class="trust-dot">·</span>
         <span>No subscription</span>
         <span class="trust-dot">·</span>
         <span>Works from the menu bar</span>
         <span class="trust-dot">·</span>
-        <span>macOS 13 Ventura or later</span>
+        <span>macOS 13+</span>
         <span class="trust-dot">·</span>
         <span>Apple Silicon &amp; Intel</span>
       </div>
@@ -207,7 +217,7 @@
     <div class="footer-inner">
       <span class="footer-logo">⌨ BindKey</span>
       <div class="footer-links">
-        <a href="#">Privacy Policy</a>
+        <a href="https://doc-hosting.flycricket.io/bindkey-privacy-policy/d4d115c2-1d14-4f60-ae01-582a4082739d/privacy" target="_blank" rel="noopener">Privacy Policy</a>
         <a href="#">Support</a>
       </div>
       <span class="footer-copy">© 2026. Made with care for Mac users.</span>
