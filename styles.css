@@ -270,9 +270,18 @@ a:hover {
   margin-bottom: 72px;
 }
 
-.hero-meta {
-  font-size: 14px;
+.hero-trust {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
   color: var(--text-muted);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trust-dot {
+  color: var(--border);
 }
 
 /* --- Menu Bar Mockup --- */
@@ -405,6 +414,98 @@ kbd {
   height: 1px;
   background: var(--border-light);
   margin: 4px 10px;
+}
+
+/* --- Why BindKey --- */
+
+.why {
+  padding: 96px 0;
+  background: var(--bg-secondary);
+}
+
+.why .section-title {
+  font-size: clamp(26px, 3.5vw, 38px);
+}
+
+.why .section-sub {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.why-card {
+  flex: 1;
+  max-width: 380px;
+  border-radius: var(--radius-lg);
+  padding: 32px 32px;
+  border: 1px solid var(--border-light);
+}
+
+.why-card--problem {
+  background: var(--bg-card);
+}
+
+.why-card--solution {
+  background: var(--accent);
+  border-color: transparent;
+}
+
+.why-card--solution .why-label {
+  color: rgba(255,255,255,0.7);
+}
+
+.why-card--solution .why-list li {
+  color: #fff;
+}
+
+.why-card--solution .why-list li::before {
+  color: rgba(255,255,255,0.6);
+}
+
+.why-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.why-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.why-list li {
+  font-size: 15px;
+  color: var(--text-secondary);
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.45;
+}
+
+.why-list li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+
+.why-divider {
+  font-size: 24px;
+  color: var(--border);
+  flex-shrink: 0;
+  font-weight: 300;
 }
 
 /* --- How It Works --- */
@@ -553,9 +654,14 @@ kbd {
   max-width: 460px;
 }
 
-.download-meta {
+.download-trust {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 13px;
   color: var(--text-muted);
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: -4px;
 }
 
@@ -624,6 +730,19 @@ kbd {
   }
 
   .step-connector {
+    display: none;
+  }
+
+  .why-grid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .why-card {
+    max-width: 100%;
+  }
+
+  .why-divider {
     display: none;
   }
 

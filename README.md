@@ -1,6 +1,6 @@
 # BindKey — Site
 
-Marketing site for [BindKey](https://github.com/chelseahannah/bindkey), a macOS menu bar app for saving and firing keyboard shortcuts.
+Marketing site for BindKey, a macOS menu bar app for saving and firing keyboard shortcuts.
 
 Deployed via GitHub Pages at `/bindkey`.
 

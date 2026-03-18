@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BindKey — Save and name your keyboard shortcuts. Fire them from the menu bar in any app, without switching windows or memorizing complex combos." />
-  <title>BindKey — Keyboard Shortcuts, Simplified</title>
+  <meta name="description" content="BindKey — Stop forgetting keyboard shortcuts. Save any key combo, name it, and fire it from your menu bar in one click — without leaving your current app." />
+  <title>BindKey — Keyboard Shortcuts from Your Menu Bar</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="assets/icon.png" />
 </head>
@@ -18,9 +18,10 @@
         BindKey
       </a>
       <nav class="nav-links">
+        <a href="#why">Why BindKey</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
-        <a href="#download" class="btn btn-sm">Download</a>
+        <a href="#download" class="btn btn-sm">Get BindKey</a>
       </nav>
     </div>
   </header>
@@ -28,17 +29,23 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-badge">Now available for macOS</div>
+      <div class="hero-badge">Native macOS app &nbsp;·&nbsp; Menu bar utility</div>
       <h1 class="hero-headline">
-        Your shortcuts,<br />
-        <span class="accent">one click away.</span>
+        Stop forgetting<br />
+        <span class="accent">your shortcuts.</span>
       </h1>
       <p class="hero-sub">
-        BindKey lives in your menu bar. Save any keyboard shortcut, give it a name, and fire it instantly — in whatever app you're using — without switching windows or memorizing complex combos.
+        BindKey saves your keyboard shortcuts by name and lets you fire them from the menu bar — instantly, in whatever app you're already using.
       </p>
       <div class="hero-cta">
-        <a href="#download" class="btn btn-primary">Download for macOS</a>
-        <span class="hero-meta">Free · macOS 13+</span>
+        <a href="#download" class="btn btn-primary">Get BindKey for Mac</a>
+        <div class="hero-trust">
+          <span>No subscription</span>
+          <span class="trust-dot">·</span>
+          <span>No switching windows</span>
+          <span class="trust-dot">·</span>
+          <span>macOS 13+</span>
+        </div>
       </div>
       <div class="hero-visual">
         <div class="menubar-mockup">
@@ -63,8 +70,8 @@
               <span class="shortcut-keys"><kbd>⌃</kbd><kbd>⌘</kbd><kbd>Q</kbd></span>
             </div>
             <div class="shortcut-item">
-              <span class="shortcut-name">Undo Last Action</span>
-              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>Z</kbd></span>
+              <span class="shortcut-name">Force Quit</span>
+              <span class="shortcut-keys"><kbd>⌘</kbd><kbd>⌥</kbd><kbd>⎋</kbd></span>
             </div>
             <div class="dropdown-divider"></div>
             <div class="shortcut-item shortcut-item--muted">
@@ -76,28 +83,32 @@
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="how-it-works" id="how-it-works">
+  <!-- WHY BINDKEY -->
+  <section class="why" id="why">
     <div class="section-inner">
-      <h2 class="section-title">As simple as it sounds.</h2>
-      <p class="section-sub">Three steps, zero friction.</p>
-      <div class="steps">
-        <div class="step">
-          <div class="step-number">1</div>
-          <h3>Add a shortcut</h3>
-          <p>Type any key combo and give it a name you'll actually remember. No cryptic identifiers.</p>
+      <h2 class="section-title">You know the shortcut exists.<br />You just can't remember it right now.</h2>
+      <p class="section-sub">
+        Every interruption to look one up — a search, a Google, a trip to System Settings — breaks your focus. BindKey keeps them all one click away, labeled in plain English, right from the menu bar.
+      </p>
+      <div class="why-grid">
+        <div class="why-card why-card--problem">
+          <div class="why-label">Before</div>
+          <ul class="why-list">
+            <li>Open a browser to look up the shortcut</li>
+            <li>Dig through app menus hoping it's listed</li>
+            <li>Break focus every time you forget</li>
+            <li>Give up and use the mouse instead</li>
+          </ul>
         </div>
-        <div class="step-connector"></div>
-        <div class="step">
-          <div class="step-number">2</div>
-          <h3>Stay in your app</h3>
-          <p>Keep working. BindKey sits quietly in your menu bar, ready when you need it.</p>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step">
-          <div class="step-number">3</div>
-          <h3>Click to fire</h3>
-          <p>Click any saved shortcut from the menu. It fires instantly in the app you were using — no focus stealing, no switching.</p>
+        <div class="why-divider">→</div>
+        <div class="why-card why-card--solution">
+          <div class="why-label">With BindKey</div>
+          <ul class="why-list">
+            <li>Click the menu bar icon</li>
+            <li>Pick the shortcut by name</li>
+            <li>It fires in your active app</li>
+            <li>Back to work in under a second</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -106,51 +117,88 @@
   <!-- FEATURES -->
   <section class="features" id="features">
     <div class="section-inner">
-      <h2 class="section-title">Built for how you actually work.</h2>
-      <p class="section-sub">Powerful where it matters, invisible where it doesn't.</p>
+      <h2 class="section-title">Everything you need.<br />Nothing you don't.</h2>
+      <p class="section-sub">Built to stay out of your way.</p>
       <div class="feature-grid">
         <div class="feature-card">
           <div class="feature-icon">⌨️</div>
-          <h3>Save unlimited shortcuts</h3>
-          <p>Store as many key combos as you need. Organize them however you like with custom names.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">🖱️</div>
-          <h3>One-click from menu bar</h3>
-          <p>Access every saved shortcut from a single, always-visible menu bar icon.</p>
+          <h3>Save any shortcut, give it a name</h3>
+          <p>Record any key combo and label it however makes sense to you. No cryptic strings — just names you'll recognize.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🎯</div>
-          <h3>Fires in the right app</h3>
-          <p>BindKey sends the shortcut to the app that was active before you opened the menu — not to itself.</p>
+          <h3>Fires in your active app</h3>
+          <p>BindKey sends the shortcut to the app you were using before opening the menu. Not to itself. Not to the wrong window.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖱️</div>
+          <h3>Always one click away</h3>
+          <p>Lives in the menu bar, ready without a dedicated shortcut to remember, a Spotlight search, or switching apps.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🔒</div>
-          <h3>Private by design</h3>
-          <p>Everything lives locally on your Mac. No accounts, no cloud sync, no data collection.</p>
+          <h3>Completely private</h3>
+          <p>No accounts. No cloud. No data collection. Everything stays on your Mac.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">⚡</div>
-          <h3>Instant and lightweight</h3>
-          <p>Zero launch time, minimal CPU and memory footprint. You won't notice it's there until you need it.</p>
+          <h3>Lightweight by design</h3>
+          <p>Near-zero CPU and memory footprint. Launches instantly on login. You'll forget it's running — until you need it.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🍎</div>
-          <h3>Feels native to macOS</h3>
-          <p>Designed to look and feel like it belongs on your Mac. System fonts, native controls, dark mode support.</p>
+          <h3>Built for macOS</h3>
+          <p>Native Swift app. System fonts, native controls, full dark mode. Feels like it came with your Mac.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- DOWNLOAD -->
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-inner">
+      <h2 class="section-title">Set up in under a minute.</h2>
+      <p class="section-sub">No configuration. No learning curve.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Save a shortcut</h3>
+          <p>Record any key combination and give it a plain-English name. <kbd>⌘</kbd><kbd>⇧</kbd><kbd>4</kbd> becomes "Screenshot Region."</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Keep working</h3>
+          <p>BindKey sits in the menu bar, invisible, until you need it. No setup, no ongoing maintenance.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Click, done</h3>
+          <p>Open the menu, pick the shortcut by name. It fires immediately in your active app — no window switching, no delay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD CTA -->
   <section class="download" id="download">
     <div class="section-inner download-inner">
       <img src="assets/icon.png" alt="BindKey app icon" class="download-icon" />
-      <h2>Start working smarter.</h2>
-      <p>Free download. No account required. Works on macOS Ventura and later.</p>
-      <a href="#" class="btn btn-primary btn-large">Download BindKey</a>
-      <p class="download-meta">macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon & Intel</p>
+      <h2>Never lose your flow to a forgotten shortcut.</h2>
+      <p>One-time purchase. No subscription, no account, no nonsense.</p>
+      <a href="#" class="btn btn-primary btn-large">Get BindKey — $X</a>
+      <div class="download-trust">
+        <span>Native macOS app</span>
+        <span class="trust-dot">·</span>
+        <span>No subscription</span>
+        <span class="trust-dot">·</span>
+        <span>Works from the menu bar</span>
+        <span class="trust-dot">·</span>
+        <span>macOS 13 Ventura or later</span>
+        <span class="trust-dot">·</span>
+        <span>Apple Silicon &amp; Intel</span>
+      </div>
     </div>
   </section>
 
