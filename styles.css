@@ -214,6 +214,10 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-links .btn {
+  color: #fff;
+}
+
 /* --- Hero --- */
 
 .hero {
